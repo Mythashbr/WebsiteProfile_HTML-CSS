@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body {
+	background-image:url("../img/banner.jpg");
+    background-size: cover;
+}
+a{
+	color:inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding: 15px 0;
+	background-color: #1E3B64;
+
+}
+.medsos ul li{
+	display: inline-block;
+	color:#fff;
+	margin-right: 10px;
+	size: 25px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	size: 42px;	
+}
+.container :after {
+	content:" ";
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding:15px 0;
+	color: #fff;
+	font-size: 48px;
+	
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+	font-family: fantasy;
+}
+header ul li a {
+	padding: 30px 20px;
+	display: inline-block;
+	font-family: fantasy;
+	color: #fff;
+	font-size: 22px;
+}
+header ul li a:hover {
+	background-color: #1E3B64;
+	color: #fff;
+
+}
+.banner {
+	height: 80vh;
+	color: #1E3B64;
+    text-align: center;
+    padding-top: 160px;
+	text-shadow: 6px 6px 6px rgba(0,0,0,0.8);
+	font-size: 65px;
+	color: #1E3B64;
+}
+
+
+	
